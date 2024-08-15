@@ -1,11 +1,10 @@
-print("Precio del producto")
-precio = input("Porfavor ingrese el precio del producto: ")
+print("PRECIO DEL PRODUCTO")
+precio = int(input("Porfavor ingrese el precio del producto: "))
 
-if int(precio) >= float(2500.00):
-    descuento = int(precio)*0.15
+if precio >= float(2500.00):
+    descuento = precio*0.15
     print(f'Se aplico un descueto {descuento}')
 
-elif int(precio) <= float(2500.00):
-    descuento = int(precio)*0.08
-    descuento = int(descuento)
+elif precio <= float(2500.00):
+    descuento = round(precio * 0.08)
     print(f'Se aplico un descueto {descuento}')

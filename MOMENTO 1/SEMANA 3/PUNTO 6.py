@@ -1,6 +1,6 @@
-print("Primer valor")
+print("PRIMER VALAOR")
 primer_valor = input("Digite el primer numero: ")
-print("Segundo valor")
+print("SEGUNDO VALOR")
 segundo_valor = input("Digite el segundo numero: ")
 
 if primer_valor == segundo_valor:
